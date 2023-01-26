@@ -68,6 +68,7 @@ namespace WordSearchGenerator
                 for (int j = 0; j < grid.GetLength(1); j++)
                 {
                     Console.Write(grid[i, j].ToString());
+                    if (j != grid.GetLength(1) - 1) Console.Write(" ");
                 }
                 Console.WriteLine();
             }
